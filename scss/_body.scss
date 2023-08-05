@@ -1,0 +1,105 @@
+@import "./variables.scss";
+
+.results {
+  margin-left: 302px;
+  margin-top: 40px;
+
+  .post__results {
+    color: var(--aesagrey, #bebebe);
+
+    font-family: Paralucent;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+main {
+  display: grid;
+  grid-template-columns: 670px 670px;
+
+  width: 100%;
+  max-width: 1920px;
+  margin-left: 263px;
+  margin-top: 80px;
+}
+
+.posts {
+  width: 650px;
+  height: 239px;
+  flex-shrink: 0;
+  margin-left: 41px;
+  margin-bottom: 16px;
+  border: 1px solid var(--aesalightgrey, #e8e8e8);
+
+  .post__header {
+    display: flex;
+    align-self: stretch;
+    color: var(--ogaesa-1, #0db04a);
+
+    font-family: Lunchtype22;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 24px;
+    margin-bottom: 4px;
+    margin-left: 40px;
+  }
+
+  .post__content {
+    display: flex;
+    align-self: stretch;
+    color: var(--aesablack, #151515);
+
+    font-family: Paralucent;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 24px;
+    margin-left: 40px;
+  }
+  .post__line {
+    display: flex;
+    margin-left: 40px;
+    width: 570px;
+    height: 0px;
+    color: #e8e8e8;
+  }
+
+  .post__tags__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+    list-style: none;
+    margin-left: 40px;
+  }
+}
+
+.see__more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .see__more-btn {
+    border-radius: 50px;
+    height: 44px;
+    width: 125px;
+    background-image: url(/dist/images/see_more_btn.svg);
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    background-size: 12px;
+    text-indent: 12px;
+    color: var(--aesablack, #151515);
+    margin: 80px 80px;
+    font-family: Paralucent;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+  }
+}

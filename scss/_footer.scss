@@ -1,0 +1,76 @@
+@import "./variables.scss";
+
+.footer__image {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1920px;
+  height: 926px;
+  background-image: url(/dist/images/unsplash_iQ15DTx-63k.png);
+  background-repeat: no-repeat;
+
+  .rectangle__footer {
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 280px;
+    margin-right: 310px;
+    width: 650px;
+    height: 432px;
+    flex-shrink: 0;
+    background-color: $primarycolor;
+    z-index: 1;
+  }
+
+  .rectangle__con {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    .rectangle__header {
+      margin-top: 38px;
+
+      width: 569px;
+      color: var(--aesawhite, #fefefe);
+
+      font-family: Paralucent;
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    .rectangle__content {
+      margin-top: 19px;
+      width: 569px;
+      height: 96px;
+      flex-shrink: 0;
+      color: var(--aesawhite, #fefefe);
+      font-family: Paralucent;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 20px; /* 125% */
+    }
+
+    .rectangle__buttons {
+      display: flex;
+      list-style: none;
+      margin-top: 64px;
+      gap: 16px;
+
+      .rectangle_btn {
+        height: 44px;
+        width: 105px;
+        color: #fefefe;
+        background-image: url(/dist/images/Group\ 168.svg);
+        background-repeat: no-repeat;
+        background-position: left 5px center;
+        font-family: Paralucent;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        background-color: $secundarycolorL;
+        border-radius: 80px;
+      }
+    }
+  }
+}
