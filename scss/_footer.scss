@@ -24,7 +24,7 @@
   .rectangle__con {
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
+
     .rectangle__header {
       margin-top: 38px;
 
@@ -80,7 +80,6 @@
   align-items: center;
   width: 1920px;
   height: 108px;
-  flex-shrink: 0;
 
   list-style: none;
 

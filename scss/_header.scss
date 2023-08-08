@@ -5,7 +5,7 @@ nav {
   align-items: center;
   width: 1920px;
   height: 108px;
-  flex-shrink: 0;
+
   background-color: $primarycolor;
   list-style: none;
 }
@@ -47,7 +47,7 @@ nav {
     height: 12px;
   }
   & a {
-    color: var(--aesawhite, #fefefe);
+    color: #fefefe;
     text-decoration: none;
 
     font-family: Paralucent;
@@ -88,10 +88,8 @@ nav {
 .references__section {
   display: flex;
   flex-direction: column;
-  align-self: center;
   width: 1920px;
   height: 301px;
-  flex-shrink: 0;
   background-color: $primarycolor;
 
   .line {
