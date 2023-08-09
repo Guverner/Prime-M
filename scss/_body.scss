@@ -37,8 +37,6 @@ main {
     display: flex;
     align-self: stretch;
     color: var(--ogaesa-1, #0db04a);
-
-    font-family: Lunchtype22;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -101,5 +99,66 @@ main {
     font-style: normal;
     font-weight: 500;
     line-height: 21px;
+  }
+}
+
+@media (max-width: 375px) {
+  .post__results {
+    color: #bebebe;
+
+    /* MOBILE/H4 */
+    font-family: Paralucent;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+
+    .posts {
+      margin-left: 0;
+      display: flex;
+      width: 373px;
+      padding: 24px 0px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+
+      .post__header {
+        margin-top: 4px;
+        margin-left: 5px;
+        align-self: stretch;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+      }
+      .post__content {
+        margin-left: 5px;
+        width: 323px;
+        font-size: 16px;
+      }
+      .post__line {
+        width: 343px;
+        margin-left: 0;
+        gap: 8px;
+      }
+      .post__tags__list {
+        margin-left: 16;
+        width: 375px;
+        gap: 25px;
+        .list2 img {
+          width: 23.85px;
+          height: 24px;
+        }
+        .list2 > span {
+          font-size: 8px;
+        }
+      }
+    }
   }
 }
